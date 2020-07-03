@@ -1,0 +1,2 @@
+aws cloudformation update-stack --stack-name myproject6-server --template-body file://final-project-starter.yml  --parameters file://server-parameters.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-west-2
+aws cloudformation create-stack --stack-name myproject4 --template-body file://final,-starter.yml, file://final-project-network.yml --parameters file://server-parameters.json,file://final-project-network-parameters.json
